@@ -1,0 +1,1 @@
+[21-May-2016 20:24:32 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/chrismc3/public_html/balzanfc/wp-content/themes/twentytwelve/404.php on line 10

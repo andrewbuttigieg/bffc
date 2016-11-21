@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wp-content/wppa-pl
+RewriteRule ^New-Album/(.*) //album-1/$1 [NC]
+</IfModule>

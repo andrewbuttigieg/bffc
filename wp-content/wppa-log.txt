@@ -1,0 +1,28 @@
+{b}Err{/b}: on:November 21, 2016 5:19 pm: andrewbuttigieg@gmail.com: $wppa_opt[wppa_source_dir] is not a setting
+{b}url{/b}: /wp-admin/plugin-editor.php?file=backupwordpress/backupwordpress.php
+#0  wppa_log() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-content/plugins/wp-photo-album-plus/wppa-utils.php:386]
+#1  wppa_opt() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-content/plugins/wp-photo-album-plus/wppa-htaccess.php:135]
+#2  wppa_create_pl_htaccess() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-content/plugins/wp-photo-album-plus/wppa-setup.php:462]
+#3  wppa_setup()
+#4  call_user_func_array() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-includes/plugin.php:524]
+#5  do_action() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-settings.php:411]
+#6  require_once(/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-settings.php) called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-config.php:89]
+#7  require_once(/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-config.php) called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-load.php:39]
+#8  require_once(/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-load.php) called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-admin/admin.php:31]
+#9  require_once(/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-admin/admin.php) called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-admin/plugin-editor.php:10]
+
+{b}Err{/b}: on:November 21, 2016 5:19 pm: andrewbuttigieg@gmail.com: $wppa_opt[wppa_max_filename_length] is not a setting
+{b}url{/b}: /wp-admin/plugin-editor.php?file=backupwordpress/backupwordpress.php
+#0  wppa_log() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-content/plugins/wp-photo-album-plus/wppa-utils.php:386]
+#1  wppa_opt() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-content/plugins/wp-photo-album-plus/wppa-utils.php:2443]
+#2  wppa_sanitize_file_name() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-content/plugins/wp-photo-album-plus/wppa-htaccess.php:201]
+#3  wppa_get_album_name_for_pl() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-content/plugins/wp-photo-album-plus/wppa-htaccess.php:170]
+#4  wppa_create_pl_htaccess() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-content/plugins/wp-photo-album-plus/wppa-setup.php:462]
+#5  wppa_setup()
+#6  call_user_func_array() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-includes/plugin.php:524]
+#7  do_action() called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-settings.php:411]
+#8  require_once(/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-settings.php) called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-config.php:89]
+#9  require_once(/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-config.php) called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-load.php:39]
+#10 require_once(/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-load.php) called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-admin/admin.php:31]
+#11 require_once(/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-admin/admin.php) called at [/var/sentora/hostdata/zadmin/public_html/balzanfc/wp-admin/plugin-editor.php:10]
+
